@@ -1,70 +1,95 @@
-# Getting Started with Create React App
+# SwipeScape
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to **SwipeScape**! This application offers a visually engaging way to browse through images using a card-swiping interface. Inspired by popular social apps, SwipeScape provides a sleek and interactive user experience, focusing on the fun of swiping through images.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Swipeable Cards**: Enjoy a seamless and intuitive swiping experience on images of people.
+- **Dynamic Interface**: Built with React, CSS, and HTML for a responsive and attractive frontend.
+- **Robust Backend**: Powered by Node.js and Express.js, ensuring efficient data handling and processing.
+- **NoSQL Database**: Utilizes MongoDB, a NoSQL database, for flexible and scalable data storage.
+- **Deployment**: Frontend hosted on Firebase and backend deployed on Heroku for smooth and fast access.
 
-### `npm start`
+## Technical Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Frontend
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **React**: Our frontend is developed using React, a powerful JavaScript library for building user interfaces.
+- **Styling**: The application features custom CSS and HTML for styling, ensuring a modern and user-friendly design.
+- **Icons**: Includes intuitive icons for actions like liking an image, enhancing the user experience.
 
-### `npm test`
+### Backend
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- **Node.js and Express.js**: The backend is built with Node.js and Express.js, providing a robust and scalable server environment.
+- **NoSQL Database (MongoDB)**: We use MongoDB, a NoSQL database, to handle our data storage needs, offering flexibility and performance for our data storage.
+- **API Endpoints**: The server exposes several API endpoints to manage image data and user interactions.
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- **Firebase**: The frontend is hosted on Firebase, taking advantage of its powerful hosting capabilities.
+- **Heroku**: The backend is deployed on Heroku, ensuring a reliable and scalable server infrastructure.
 
-### `npm run build` fails to minify
+## Getting Started
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Prerequisites
+
+Ensure you have the following installed on your system:
+
+- Node.js
+- npm (Node Package Manager)
+- MongoDB
+
+### Installation
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/yourusername/swipescape.git
+   cd swipescape
+   ```
+
+2. **Install frontend dependencies**:
+   ```bash
+   cd frontend
+   npm install
+   ```
+
+3. **Install backend dependencies**:
+   ```bash
+   cd ../backend
+   npm install
+   ```
+
+### Running the Application
+
+1. **Start MongoDB**:
+   ```bash
+   mongod
+   ```
+
+2. **Run the backend server**:
+   ```bash
+   cd backend
+   npm start
+   ```
+
+3. **Run the frontend server**:
+   ```bash
+   cd ../frontend
+   npm start
+   ```
+
+4. **Access the app**: Open your browser and navigate to `http://localhost:3000`
+
+## Contributing
+
+We welcome contributions to enhance the app. Please follow these steps to contribute:
+
+1. Fork the repository.
+2. Create a new branch: `git checkout -b feature/your-feature-name`
+3. Commit your changes: `git commit -m 'Add your feature'`
+4. Push to the branch: `git push origin feature/your-feature-name`
+5. Submit a pull request.
+
+## License
+
+This project is licensed under the MIT License.
